@@ -1,0 +1,12 @@
+header {
+    background: url();
+    height: 30vh;
+}
+
+.IN-widget {
+    border: 1px solid red;
+    /* align-content: center; */
+    vertical-align: center;
+    background: black;
+    color:white;
+}

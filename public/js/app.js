@@ -15,13 +15,13 @@ function getProfileData() {
 
 // Handle the successful return from the API call
 function displayProfileData(data) {
-    var user = data.values[0];
-    // console.log(data);
-    console.log(user);
-}
-
-// Handle an error response from the API call
-// Manejar una respuesta de error de la llamada API
-function onError(error) {
-    console.log(error);
+    let user = data.values[0];
+    let firstName = user.firstName;
+    let lastName = user.lastName;
+    let emailAddress= user.emailAddress;
+    let headline = user.headline;
+    let boxUser = document.getElementById('box-user');
+    boxUser.innerHTML = '<p class="text-center">'+ firstName+ ' '+ lastName+'<p>'+
+    '<p  class="text-center">' +  emailAddress + '</p>' +
+    '<p  class="text-center">' +  headline + '</p>';    
 }

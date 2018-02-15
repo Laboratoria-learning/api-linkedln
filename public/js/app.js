@@ -25,3 +25,8 @@ function displayProfileData(data) {
     '<p  class="text-center">' +  emailAddress + '</p>' +
     '<p  class="text-center">' +  headline + '</p>';    
 }
+
+// Manejar una respuesta de error de la llamada API
+function onError(error) {
+    console.log(error);
+}

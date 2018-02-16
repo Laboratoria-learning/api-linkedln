@@ -1,0 +1,35 @@
+html {
+  height: 100vh;
+}
+
+body {
+  align-content: space-between;
+  background-color: #F0F3F1;
+  color: rgb(0, 0, 0);
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+img [alt='user'] {
+  height: 5vh;
+}
+
+.header-disabled {
+  display: none;
+}
+
+#login {
+  background-color: #D1DBBD;   
+  box-shadow: 1px 1px 10px #F0F3F1;
+  color: rgb(0, 0, 0);
+  padding: 10vh 0;
+}
+
+.IN-widget {
+  border-style: none;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+

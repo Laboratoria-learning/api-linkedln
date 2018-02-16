@@ -15,10 +15,14 @@ img [alt='user'] {
   height: 5vh;
 }
 
+.header-disabled {
+  display: none;
+}
+
 #login {
-  background-color: #764762;
+  background-color: #D1DBBD;   
   box-shadow: 1px 1px 10px #F0F3F1;
-  color: #FFFFFF;
+  color: rgb(0, 0, 0);
   padding: 10vh 0;
 }
 
@@ -28,3 +32,4 @@ img [alt='user'] {
   text-align: center;
   width: 100%;
 }
+
